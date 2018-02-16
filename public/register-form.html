@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/register.css" />
+    <title>Timbre</title>
+  </head>
+
+  <body>
+    <div id="navbar-black" class="navbar-top">
+      <div class="logo-home">
+        <a href="#">
+          <img src="img/logo@3x.png">
+        </a>
+      </div>
+
+      <div class="navbar-links">
+        <ul id="recruit" class="horizontal-list">
+          <li>
+            <a href="#">성우 구하기</a>
+          </li>
+          <li>
+            <a href="#">구인 리스트</a>
+          </li>
+        </ul>
+        <ul id="login" class="horizontal-list">
+          <li>
+            <a href="#">로그인</a>
+          </li>
+          <li>
+            <a href="#">회원가입</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="title">
+      <img src="img/numball-02.png" class="numball-02">
+      <h3>회원정보입력</h3>
+    </div>
+
+    <div class="description">
+      <p>아래에 정보를 입력 후, 가입하기 버튼을 누르면,
+        <strong>의뢰자 회원</strong>으로 가입됩니다.</p>
+    </div>
+
+    <form class="register-form" method="POST" action="#">
+      <div class="form-row">
+        <div id="email-input" class="form-component">
+          <label for="register-email">이메일</label>
+          <input type="email" id="register-email" placeholder="example@mail.com" />
+        </div>
+
+        <div id="password-input" class="form-component">
+          <label for="register-password">비밀번호</label>
+          <input type="password" id="register-password" placeholder="10자 이상 영문, 숫자 필수 및 특수문자 가능">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div id="username-input" class="form-component">
+          <label for="register-username">닉네임</label>
+          <input type="text" id="register-username" placeholder="닉네임을 입력해주세요">
+        </div>
+
+        <div id="password-confirm" class="form-component">
+          <label for="confirm-pw">비밀번호 확인</label>
+          <input type="password" id="confirm-pw" placeholder="비밀번호를 다시 입력하세요">
+        </div>
+      </div>
+
+      <div class="form-submit">
+        <p>가입하기를 누르시면</p>
+        <p>개인정보처리방침 및 이용약관에 동의하게 됩니다.</p>
+        <button type="submit">가입하기</button>
+      </div>
+    </form>
+  </body>
+
+</html>

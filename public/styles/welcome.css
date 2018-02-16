@@ -1,0 +1,174 @@
+@font-face {
+  font-family: SpoqaHanSans;
+  src: local("Spoqa Han Sans Regular"), url('../fonts/Spoqa Han Sans Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: SpoqaHanSansBold;
+  src: local("Spoqa Han Sans Bold"), url('../fonts/Spoqa Han Sans Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SpoqaHanSansLight;
+  src: local("Spoqa Han Sans Light"), url('../fonts/Spoqa Han Sans Light.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: SpoqaHanSansThin;
+  src: local("Spoqa Han Sans Thin"), url('../fonts/Spoqa Han Sans Thin.ttf');
+  font-weight: normal;
+}
+
+body {
+  font-family: SpoqaHanSans;
+  margin: 0;
+}
+
+#navbar-black {
+  width: 1440px;
+  height: 85px;
+  background-color: #3d3e40;
+}
+
+.logo-home {
+  float: left;
+  margin: 31px 0px 29px 52px;
+}
+
+.logo-home img {
+  width: 88px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.navbar-links {
+  float: left;
+  text-align: left;
+  margin: 31px 0px 29px 0px;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.horizontal-list {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+#recruit {
+  margin-left: 251px;
+}
+
+#recruit li {
+  margin-right: 47px;
+}
+
+#login {
+  margin-left: 585px;
+}
+
+#login li {
+  margin-right: 68px;
+}
+
+#register-info {
+  height: 134px;
+  border-bottom: 10px;
+  border-bottom-color: #f7f7f7;
+}
+
+.title {
+  width: 1440px;
+  margin-top: 52px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.title img {
+  margin-top: 5px;
+  height: 27px;
+  width: 27px;
+  float: left;
+}
+
+.title h3 {
+  height: 36px;
+  float: left;
+  margin: 0 0 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #292a2b;
+}
+
+.description {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+.description p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: rgba(41, 42, 43, 0.6);
+}
+
+.body {
+  width: 1440px;
+  align-content: center;
+}
+
+.placeholder {
+  width: 262px;
+  height: 262px;
+  border-radius: 131px;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.body p {
+  margin-top: 39px;
+  margin-bottom: 18px;
+  text-align: center;
+  font-size: 13px;
+	letter-spacing: -0.1px;
+}
+
+.body a {
+  font-weight: bold;
+	color: #ff6283;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.body button {
+  width: 334px;
+	height: 51px;
+	border-radius: 31.5px;
+  background-image: linear-gradient(to right, #f86778, #f48354);
+  font-size: 17px;
+	letter-spacing: -0.1px;
+	text-align: center;
+	color: #ffffff;
+}
