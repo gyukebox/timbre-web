@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="663" height="208" viewBox="0 0 663 208">
+    <defs>
+        <linearGradient id="b" x1="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#F86778"/>
+            <stop offset="100%" stop-color="#F48354"/>
+        </linearGradient>
+        <rect id="a" width="663" height="208" rx="8"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <text fill="#FFF" fill-opacity=".22" font-family="SpoqaHanSans-Bold, SpoqaHanSans" font-size="144" font-weight="bold" mask="url(#c)">
+            <tspan x="375.272" y="164">D-9</tspan>
+        </text>
+        <text fill="#FFF" font-family="SpoqaHanSans-Regular, SpoqaHanSans" font-size="30" mask="url(#c)">
+            <tspan x="31.172" y="65.172">#상큼한 #귀여운</tspan>  <tspan x="31.172" y="110.172" font-family="SpoqaHanSans-Light, SpoqaHanSans" font-weight="300">목소리</tspan> <tspan x="31.172" y="155.172" font-family="SpoqaHanSans-Light, SpoqaHanSans" font-weight="300">찾습니다.</tspan>
+        </text>
+        <text fill="#FFF" font-family="SpoqaHanSans-Bold, SpoqaHanSans" font-size="16" font-weight="bold" mask="url(#c)">
+            <tspan x="481.12" y="97">마감까지</tspan>
+        </text>
+    </g>
+</svg>

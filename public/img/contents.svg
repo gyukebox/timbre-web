@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="226" height="54" viewBox="0 0 226 54">
+    <defs>
+        <rect id="a" width="226" height="54" rx="27"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#FFF" fill-opacity="0" xlink:href="#a"/>
+            <rect width="224.5" height="52.5" x=".75" y=".75" stroke="#FFF" stroke-width="1.5" rx="26.25"/>
+        </g>
+        <text fill="#FFF" font-family="SpoqaHanSans-Regular, SpoqaHanSans" font-size="17" letter-spacing="-.106">
+            <tspan x="47.163" y="34.5">컨텐츠 페이지 이동</tspan>
+        </text>
+    </g>
+</svg>
