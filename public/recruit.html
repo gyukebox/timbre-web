@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/recruit.css" />
+    <title>Timbre</title>
+  </head>
+
+  <body>
+    <div id="navbar" class="navbar black">
+      <div class="logo-home">
+        <a href="#">
+          <img src="img/logo@3x.png">
+        </a>
+      </div>
+
+      <div class="navbar-links">
+        <ul id="recruit" class="horizontal-list">
+          <li>
+            <a class="selected" href="#">성우 구하기</a>
+          </li>
+          <li>
+            <a href="#">구인 리스트</a>
+          </li>
+        </ul>
+        <ul id="login" class="horizontal-list">
+          <li>
+            <a href="#">로그인</a>
+          </li>
+          <li>
+            <a href="#">회원가입</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="title">
+      <h3>성우 구하기</h3>
+    </div>
+
+    <div class="description">
+      <p>성우를 모집해보세요. 내 작품에 딱 맞는 성우를 찾을 수 있습니다.</p>
+    </div>
+
+    <form id="recruit-form" accept-charset="utf-8" action="#" method="POST">
+
+      <!-- 제목 -->
+      <div class="form-row">
+        <label for="recruit-title">제목</label>
+        <input type="text" id="recruit-title" placeholder="5자 이상 64자 이하의 제목을 입력해주세요.">
+      </div>
+
+      <!-- 내용 -->
+      <div class="form-row">
+        <label for="recruit-description">상세 의뢰 내용</label>
+        <textarea id="recruit-description"></textarea>
+      </div>
+
+      <!-- 분야 -->
+      <div class="form-row">
+        <select id="recruit-genre" name="recruit-genre">
+          <option value="narration">나레이션</option>
+          <option value="dubbing">더빙</option>
+          <option value="bookread">책읽기</option>
+          <option value="ad">광고</option>
+          <option value="ars">ARS</option>
+          <option value="other" selected>기타</option>
+        </select>
+      </div>
+
+      <!-- 분위기 -->
+      <div class="form-row">
+        <input id="recruit-mood" type="text" placeholder="원하는 분위기를 입력하세요.">
+      </div>
+
+      <!-- 작업비용 -->
+      <div class="form-row">
+        <input id="recruit-prize" type="text">
+        <label class="unit" for="recruit-prize">만 원</label>
+      </div>
+
+      <!-- 구인기간 -->
+      <div class="form-row">
+        <input id="recruit-due-date" type="text">
+        <label class="unit" for="recurit-due-date">일</label>
+      </div>
+
+      <!-- 본문수정 작성기간 -->
+      <div class="form-row">
+        <input id="recruit-process-due-date" type="text">
+        <label class="unit" for="recruit-process-due-date">일</label>
+      </div>
+
+      <!-- 샘플대사 -->
+      <div class="form-row">
+        <textarea id="sample-script"></textarea>
+      </div>
+
+      <div class="submit-button">
+        <button type="submit" class="button-disabled">작성 완료 및 결제</button>
+      </div>
+    </form>
+
+
+  </body>
+
+</html>
