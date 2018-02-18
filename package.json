@@ -15,7 +15,13 @@
     "test": "node scripts/test.js --env=jsdom",
     "sass": "node-sass --output-style expanded public/scss/ -o public/styles/",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages --remote=github"
+  },
+  "storybook-deployer": {
+    "gitUsername": "Byeong Gyu Choi",
+    "gitEmail": "bisschoi9541@gmail.com",
+    "commitMessage": "Deploy Storybook to GitHub Pages"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.13",
@@ -23,6 +29,7 @@
     "@storybook/addon-links": "^3.3.13",
     "@storybook/addons": "^3.3.13",
     "@storybook/react": "^3.3.13",
+    "@storybook/storybook-deployer": "^2.3.0",
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
