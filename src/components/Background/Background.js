@@ -50,44 +50,43 @@ const MainContent = ({ firstRow, secondRow }) => {
   );
 };
 
-class Background extends React.Component {
-  render() {
-    const type = this.props.type - 1;
+const Background = ({ type, loggedIn }) => {
+  const index = type - 1;
 
-    const firstRowText = HeaderProps[type].firstRow;
-    const secondLeftText = HeaderProps[type].secondRowLeft;
-    const boldText = HeaderProps[type].boldText;
-    const secondRightText = HeaderProps[type].secondRowRight;
+  const firstRowText = HeaderProps[index].firstRow;
+  const secondLeftText = HeaderProps[index].secondRowLeft;
+  const boldText = HeaderProps[index].boldText;
+  const secondRightText = HeaderProps[index].secondRowRight;
 
-    const firstParagraph = ContentProps[type].firstRow;
-    const secondParagraph = ContentProps[type].secondRow;
+  const firstParagraph = ContentProps[index].firstRow;
+  const secondParagraph = ContentProps[index].secondRow;
 
-    const Background = this.props.type === 1 ? img1 : img2;
+  const Background = type === 1 ? img1 : img2;
 
-    const style = {
-      backgroundImage: `url(${Background})`,
-      color: '#ffffff',
-    };
+  const style = {
+    backgroundImage: `url(${Background})`,
+    color: '#ffffff',
+  };
 
-    return (
-      <div style={style} className="bgimg">
-        <Navbar backgroundColor='transparent'
-          status={this.props.loggedIn ? 'logged-in' : 'not-logged-in'} />
+  return (
+    <div style={style} className="bgimg">
+      <Navbar backgroundColor='transparent'
+        status={loggedIn ? 'logged-in' : 'not-logged-in'} />
 
-        <Header firstRow={firstRowText} secondRowLeft={secondLeftText}
-          boldText={boldText} secondRowRight={secondRightText} />
+      <Header firstRow={firstRowText} secondRowLeft={secondLeftText}
+        boldText={boldText} secondRowRight={secondRightText} />
 
-        <MainContent firstRow={firstParagraph} secondRow={secondParagraph} />
+      <MainContent firstRow={firstParagraph} secondRow={secondParagraph} />
 
-        <div id="to-content-page">
-          <a href="#">
-            <img src={contents} className="contents" />
-          </a>
-        </div>
-
+      <div id="to-content-page">
+        <a href="#">
+          <img src={contents} className="contents" />
+        </a>
       </div>
-    );
-  }
-}
+
+    </div>
+  );
+};
+
 
 export default Background;

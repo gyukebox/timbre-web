@@ -13,12 +13,8 @@ const Logo = () => {
 const NavbarLeftLink = () => {
   return (
     <ul id='recruit' className='horizontal-list'>
-      <li>
-        <a href='#'>성우 구하기</a>
-      </li>
-      <li>
-        <a href='#'>구인 리스트</a>
-      </li>
+      <li><a href='#'>성우 구하기</a></li>
+      <li><a href='#'>구인 리스트</a></li>
     </ul>
   );
 };
@@ -26,12 +22,8 @@ const NavbarLeftLink = () => {
 const NotLoggedInNavbarRight = () => {
   return (
     <ul id='not-logged-in' className='horizontal-list'>
-      <li>
-        <a href='#'>로그인</a>
-      </li>
-      <li>
-        <a href='#'>회원가입</a>
-      </li>
+      <li><a href='#'>로그인</a></li>
+      <li><a href='#'>회원가입</a></li>
     </ul>
   );
 };
@@ -45,21 +37,19 @@ const LoggedInNavbarRight = () => {
   );
 };
 
-class Navbar extends Component {
-  render() {
-    return (
-      <div id='navbar' className={this.props.backgroundColor}>
-        <div className='navbar-wrapper'>
-          <Logo />
-          <div className='navbar-links'>
-            <NavbarLeftLink />
-            {this.props.status === 'not-logged-in' ? <NotLoggedInNavbarRight /> : <LoggedInNavbarRight />}
-          </div>
+const Navbar = ({ backgroundColor, status }) => {
+  return (
+    <div id='navbar' className={backgroundColor}>
+      <div className='navbar-wrapper'>
+        <Logo />
+        <div className='navbar-links'>
+          <NavbarLeftLink />
+          {status === 'not-logged-in' ? <NotLoggedInNavbarRight /> : <LoggedInNavbarRight />}
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 Navbar.defaultProps = {
   backgroundColor: 'black',

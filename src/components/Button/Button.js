@@ -1,12 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-class Button extends React.Component {
-  render() {
-    const className = `${this.props.size} ${this.props.state}`;
-    return <button className={className}>{this.props.value}</button>;
-  }
-}
+const Button = ({ size, state, value }) => {
+  const className = `${size} ${state}`;
+  return <button className={className}>{value}</button>;
+};
 
 Button.defaultProps = {
   size: 'normal',
