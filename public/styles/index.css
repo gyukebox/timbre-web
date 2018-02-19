@@ -28,8 +28,7 @@ body {
 }
 
 .bgimg {
-    width: 1440px;
-    height: 600px;
+    width: 100%;
     background-image: url('../img/bg-01.jpg');
     color: #ffffff;
 }

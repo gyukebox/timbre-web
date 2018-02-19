@@ -1,0 +1,54 @@
+body {
+  font-family: SpoqaHanSans, Arial, Helvetica, sans-serif;
+}
+
+.bgimg {
+  display: inline-block;
+  width: 100%;
+  background-size: cover;
+}
+
+.bgimg a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#main-header {
+    margin-top: 80px;
+    margin-left: 158px;
+}
+
+#main-header h1 {
+    margin: 0;
+    font-family: SpoqaHanSansLight, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.53;
+    letter-spacing: -0.8px;
+    text-align: left;
+}
+
+#main-header h1 strong {
+    font-family: SpoqaHanSans, Arial, Helvetica, sans-serif;
+}
+
+#main-content {
+    margin-top: 17px;
+    margin-left: 158px;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#main-content p {
+    margin: 0;
+    padding-left: 3px;
+}
+
+#to-content-page {
+    margin-top: 64px;
+    margin-left: 163px;
+    margin-bottom: 138px;
+}
