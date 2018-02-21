@@ -1,0 +1,83 @@
+#chart-content {
+  display: inline-block;
+  border-radius: 8px;
+	background-color: #ffffff;
+	border: solid 1px #e9e9e9;
+}
+
+.short-chart {
+  width: 25.71%;
+}
+
+.short-chart .due-date {
+  float: left;
+  margin-left: 9%;
+}
+
+.short-chart .title {
+  float: left;
+  margin-left: 6.36%;
+}
+
+.short-chart .category {
+  float: right;
+  margin-right: 8.33%;
+}
+
+.short-chart .prize {
+  float: right;
+  margin-right: 9.11%;
+}
+
+.long-chart {
+  width: 38.92%;
+}
+
+.long-chart .due-date {
+  float: left;
+  margin-left: 5.94%;
+}
+
+.long-chart .title {
+  float: left;
+  margin-left: 4.20%;
+}
+
+.long-chart .category {
+  float: right;
+  margin-right: 7.90%;
+}
+
+.long-chart .prize {
+  float: right;
+  margin-right: 4.91%;
+}
+
+.due-date {
+  font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #ff6283;
+}
+
+.title {
+  font-size: 14px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #222222;
+}
+
+.category {
+  font-size: 14px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: rgba(34, 34, 34, 0.45);
+}
+
+.prize {
+  font-size: 14px;
+	letter-spacing: -0.5px;
+	text-align: right;
+	color: #222222;
+}
