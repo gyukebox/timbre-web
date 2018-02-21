@@ -4,11 +4,11 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
-import Dropdown from './Dropdown';
-import EmailField from './Emailfield';
-import PasswordField from './Passwordfield';
-import TextArea from './Textarea';
-import TextField from './Textfield';
+import Dropdown from './Dropdown/Dropdown';
+import EmailField from './Email/Emailfield';
+import PasswordField from './Password/Passwordfield';
+import TextArea from './Textarea/Textarea';
+import TextField from './Text/Textfield';
 
 storiesOf('Form elements', module)
   .addWithDoc('Dropdown', Dropdown,
@@ -23,6 +23,9 @@ storiesOf('Form elements', module)
   .addWithDoc('Text Area', TextArea,
     'Text area form element', () => <TextArea state='default' />
   )
-  .addWithDoc('Text Field', EmailField,
-    'Text input form element', () => <TextField state='default' />
+  .addWithDoc('Normal Text Field', EmailField,
+    'Text input form element', () => <TextField state='default' size='normal' />
+  )
+  .addWithDoc('Long Text Field', EmailField,
+    'Text input form element', () => <TextField state='default' size='long' />
   );
