@@ -1,0 +1,26 @@
+select {
+  height: 38px;
+  width: 208px;
+  background-color: #ffffff;
+  font-family: SpoqaHanSans, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+	line-height: 1.57;
+	letter-spacing: -0.4px;
+	text-align: left;
+	color: rgba(41, 42, 43, 0.45);
+}
+
+option {
+  font-family: SpoqaHanSans, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+	line-height: 1.57;
+	letter-spacing: -0.4px;
+	text-align: left;
+	color: rgba(41, 42, 43, 0.45);
+}
+
+.default {
+  border: 0px solid white;
+  border-bottom: 2px solid;
+  border-bottom-color: #f7f7f7;
+}
