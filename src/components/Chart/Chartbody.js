@@ -8,12 +8,11 @@ class ChartBody extends Component {
   }
 
   render() {
-    const className = `${this.props.size}-chart`;
     const dueDate = `D - ${this.props.dueDate}`;
     const prize = `${this.props.prize} 만원`;
 
     return (
-      <div id="chart-content" className={className}>
+      <div id="chart-content">
         <p className="due-date">{dueDate}</p>
         <p className="title">{this.props.title}</p>
         <p className="prize">{prize}</p>
