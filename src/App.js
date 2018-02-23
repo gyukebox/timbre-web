@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import MainPage from './Pages/Mainpage/Mainpage';
+import RecruitList from './Pages/Recruit/List/RecruitList';
 
 const App = () => (
-  <BrowserRouter>
-    <MainPage />
-  </BrowserRouter>
+  <div>
+    <Route exact path='/' component={MainPage} />
+    <Route exact path='/recruits' component={RecruitList} />
+  </div>
 );
 
 export default App;
