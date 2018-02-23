@@ -51,7 +51,7 @@ export class MainpageChart extends Component {
       popular: [],
       immediate: []
     };
-    // this.calculateDate = this.calculateDate.bind(this);
+    this.calculateDate = this.calculateDate.bind(this);
   }
 
   calculateDate(date) {
