@@ -5,7 +5,7 @@ import img from './logo.png';
 const Logo = () => {
   return (
     <div className='logo-home'>
-      <a href='#'><img src={img} /></a>
+      <a href='/'><img src={img} /></a>
     </div>
   );
 };
@@ -14,7 +14,7 @@ const NavbarLeftLink = () => {
   return (
     <ul id='recruit' className='horizontal-list'>
       <li><a href='#'>성우 구하기</a></li>
-      <li><a href='#'>구인 리스트</a></li>
+      <li><a href='/recruits'>구인 리스트</a></li>
     </ul>
   );
 };
