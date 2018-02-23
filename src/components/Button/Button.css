@@ -1,0 +1,36 @@
+/*
+ * Button
+ * Size - normal / large
+ * State - disabled / enabled-gradient / enabled-solid   
+ */
+button {
+  font-family: SpoqaHanSans, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+button.normal {
+  width: 192px;
+  height: 54px;
+  border-radius: 27px;
+}
+
+button.large {
+  width: 334px;
+  height: 51px;
+  border-radius: 31.5px;
+}
+
+button.disabled {
+  background-color: #d5d8df;
+}
+
+button.enabled-gradient {
+  background-image: linear-gradient(to right, #f86778, #f48354);
+}
+
+button.enabled-solid {
+  background-color: #ff6283;
+}

@@ -1,0 +1,40 @@
+#recruit-chart-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+
+#recruit-chart {
+  width: 25%;
+  margin-top: 25px;
+  margin-bottom: 36px;
+}
+
+#recruit-chart.center {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#recruit-chart img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#recruit-chart-title {
+  padding-bottom: 20px;
+}
+
+#recruit-chart-title h5 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #292a2b;
+}

@@ -1,0 +1,138 @@
+#recruit-card-wrapper {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#recruit-card {
+  width: 77.77%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px 0 rgba(41, 42, 43, 0.08);
+  border: solid 1px #f7f7f7;
+}
+
+#recruit-card-image {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3.12%;
+}
+
+#recruit-card-detail {
+  display: inline-block;
+  margin-left: 2.86%;
+  width: 52.5%
+}
+
+#recruit-card-detail .category-mood {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#recruit-card-detail .category-mood .category {
+  margin: 0;
+  margin-right: 12px;
+}
+
+#recruit-card-detail .category-mood .category p {
+  margin: 0;
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 14px;
+  color: #ff6283;
+  float: none;
+  padding: 3px 22.5px 3px 22.5px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: solid 1px #ff6283;
+}
+
+#recruit-card-detail .category-mood .mood p {
+  margin: 0;
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 14px;
+  float: none;
+  padding: 3px 22.5px 3px 22.5px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #3d3e40;
+}
+
+#recruit-card-detail > h2 {
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #292a2b;
+  margin-top: 9px;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+#recruit-card-detail > p {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: rgba(41, 42, 43, 0.45);
+}
+
+#recruit-card-stat {
+  display: block;
+  float: right;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 71.25%;
+  margin-right: 4.64%;
+}
+
+#recruit-card-stat > div {
+  float: left;
+  margin-right: 50px;
+}
+
+#recruit-card-stat > div > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#recruit-card-stat > div > p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: rgba(41, 42, 43, 0.45);
+}
+
+#recruit-card-stat > div > h4 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #292a2b;
+  border-bottom: 2px solid #f7f7f7;
+}

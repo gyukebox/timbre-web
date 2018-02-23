@@ -1,0 +1,36 @@
+#selector-wrapper {
+  margin-left: 11.11%;
+  margin-top: 48px;
+  margin-bottom: 50px;
+}
+
+.selector-default {
+  display: inline-block;
+  margin: 0;
+  margin-left: 3%;
+  border: 0px solid white;
+  border-bottom: 3px solid #f7f7f7;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: rgba(41, 42, 43, 0.45);
+}
+
+.selector-selected {
+  display: inline-block;
+  margin: 0;
+  border: 0px solid white;
+  border-bottom: 3px solid #f86778;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #292a2b;
+}

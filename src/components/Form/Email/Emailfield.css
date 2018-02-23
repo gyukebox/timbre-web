@@ -1,0 +1,36 @@
+#email-input {
+  width: 261px;
+  border: 0px solid white;
+}
+
+label, input {
+  display: block;
+  -webkit-appearance: none;
+}
+
+.default label {
+  font-size: 12px;
+	font-weight: bold;
+	letter-spacing: -0.2px;
+	text-align: left;
+	color: rgba(41, 42, 43, 0.25);
+}
+
+.default input {
+  margin-top: 4px;
+  width: 250px;
+  border: 0px solid white;
+  border-bottom: 2px solid;
+  border-bottom-color: #f7f7f7;
+  font-size: 14px;
+	line-height: 1.57;
+	letter-spacing: -0.4px;
+	text-align: left;
+	color: #292a2b;
+}
+
+::-webkit-input-placeholder {
+  -webkit-text-security: none;
+  color: rgba(41, 42, 43, 0.45);
+  pointer-events: none;
+}

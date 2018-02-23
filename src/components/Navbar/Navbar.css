@@ -1,0 +1,96 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family: SpoqaHanSans, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#navbar {
+    height: 85px;
+    position: relative;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.black {
+    background-color: #3d3e40;
+}
+
+.navbar-wrapper {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.logo-home {
+    display: inline-block;
+    margin-left: 3.6%;
+    height: 100%;
+    width: 6%;
+}
+
+.logo-home img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.navbar-links {
+    width: 90%;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.horizontal-list {
+    display: inline;
+}
+
+#recruit {
+    width: 17.5%;
+    padding-left: 19.3%;
+}
+
+#recruit li {
+    padding-right: 20.6%;
+}
+
+#not-logged-in {
+    width: 17.4%;
+    padding-left: 45%;
+}
+
+#not-logged-in li {
+    padding-right: 29.95%;
+}
+
+#logged-in {
+    width: 17.4%;
+    padding-left: 45%;
+}
+
+#logged-in li {
+    padding-right: 29.95%;
+}
